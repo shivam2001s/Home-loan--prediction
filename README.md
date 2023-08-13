@@ -5,13 +5,16 @@ Data Collection
 The dataset is collected from Kaggle.
 The dataset which we get from kaggle consists of two CSV(Comma Separated Values) files.
 One is Train Data (loan_sanction_train.csv)
+
 Another is Test Data (loan_sanction_test.csv)
 Loading the collected data
 
 The CSV data is loaded with the help of read_csv method in pandas library.
 # TODO : To Load previous applicants loan application data
 test= pd.read_csv('/content/loan_sanction_test.csv')
+
 train= pd.read_csv('/content/loan_sanction_train.csv')
+
 The Training data consists of 614 applicant samples and 12 features.
 The 12 features are Loan_ID, Gender, Married, Dependents, Education, Self_Employed, ApplicanIncome, CoapplicantIncome, LoanAmount, Loan_Amount_Term, Credit_History and Property Area.
 
